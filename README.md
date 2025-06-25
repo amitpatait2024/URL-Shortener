@@ -1,2 +1,4 @@
 # URL-Shortener
 A simple Flask web app that shortens long URLs into short, easy-to-share links using base62 encoding. It stores data in SQLite and redirects users to the original URL when they open the short link.
+This is a microservice-based web application built with Flask that allows users to convert long URLs into shorter, more manageable links. It uses base62 encoding to generate unique, compact short links that are easy to share. The app stores each original URL and its corresponding short link in a SQLite database to ensure the data is saved even after restarting the server. 
+When someone visits a short link, the app looks it up in the database and redirects them to the original, full URL. This project is a great example of how URL shortening services like Bitly work and demonstrates key concepts such as web routing, database integration, and redirect handling in Flask.
